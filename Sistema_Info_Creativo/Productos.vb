@@ -120,4 +120,8 @@ Public Class Productos
         txtPrecioMayorista.Text = ""
         txtStock.Text = ""
     End Sub
+
+    Private Sub dgvproductos_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvproductos.CellContentClick
+
+    End Sub
 End Class
